@@ -26,11 +26,6 @@ function App() {
     </HashRouter>
     
 
-    // <div>
-    //   <Navbar />
-    //   <Home />
-    // </div>
-
 )}
 
 export default App;
