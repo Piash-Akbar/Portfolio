@@ -12,10 +12,10 @@ import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/Portfolio'>
       <Navbar />
         <Routes>
-          <Route path='/' element={<Home />}></Route>
+          <Route exact path='/Portfolio' element={<Home />}></Route>
           <Route path='/Career' element={<Career />}> </Route>
           <Route path='/Academic' element={<Academic />}></Route>
           <Route path='/Personal' element={<Personal />}></Route>
