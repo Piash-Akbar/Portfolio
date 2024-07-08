@@ -1,0 +1,52 @@
+.headerr{
+    background-image: url('../../.././Images/coverphoto1.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    /* position: sticky; */
+    /* top: 5px; */
+}
+.headerr{
+    display: flex;
+    height: 300px;
+    margin-top: 0px;
+    background-color: #17236a;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    border: 1px solid black;
+}
+
+h1,p{
+    margin: 0;
+    padding: 20px;
+}
+.Name{
+    /* margin-top:; */
+    /* margin-left: 35%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px;
+    border: 2px solid wheat;
+    margin: 50px;
+    color: wheat;
+    /* background-color: aqua; */
+    height: 150px;
+    width: 700px;
+}
+.CV{
+    background-color: #17236a;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.CV:hover{
+    background-color: #71788f;
+}

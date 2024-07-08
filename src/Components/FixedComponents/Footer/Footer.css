@@ -1,0 +1,86 @@
+.footer{
+    color: #ffff;
+    background-image: url('../../.././Images/coverphoto1.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+p{
+    padding-top: 0;
+}
+h4{
+    display: inline-block;
+    margin-left: 20px;
+}
+a{
+    color: aliceblue;
+}
+.add-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.fa {
+    margin: 5px;
+    padding: 10px;
+    font-size: 17px;
+    width: 17px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github{
+    background: #cd7f32;
+    color: #125688;
+}
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+.fa-researchgate{
+    background: #007bff;
+    color: white;
+}
+.fa-whatsapp{
+    background: #34b7f1;
+    color: white;
+}
+
+footer{
+    display: flex;
+    font-size: small;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+
