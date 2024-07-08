@@ -1,6 +1,6 @@
 // import './App.css';
 import React from 'react';
-import {BrowserRouter, Routes, Route, HashRouter} from 'react-router-dom';
+import {BrowserRouter, Switch,Routes, Route, HashRouter} from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Career from './Components/Career/Career';
 // import Academic from './Components/Academic/Academic';
@@ -12,42 +12,43 @@ import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
-    // <HashRouter>
-    //   <Navbar />
-    //     <Routes>
-    //       <Route exact path='/' element={<Home />}></Route>
-    //       <Route path='/Career' element={<Career />}> </Route>
-    //       <Route path='/Academic' element={<Academic />}></Route>
-    //       <Route path='/Personal' element={<Personal />}></Route>
-    //       <Route path='/Contact' element={<Contact />}></Route>
-    //     </Routes>
-    // </HashRouter>
-
-    <>
+    <HashRouter>
       <Navbar />
-      <switch>
-        <Route exact path='/'>
-          <Home />
-        </Route>
+        <Routes>
+          <Route exact path='/' element={<Home />}></Route>
+          <Route path='/Career' element={<Career />}> </Route>
+          <Route path='/Academic' element={<Academic />}></Route>
+          <Route path='/Personal' element={<Personal />}></Route>
+          <Route path='/Contact' element={<Contact />}></Route>
+        </Routes>
+    </HashRouter>
+  
 
-        <Route exact path='/Career'>
-          <Career />
-        </Route>
+    // <>
+    //   <Navbar />
+    //   <Switch>
+    //     <Route exact path='/' element={<Home />}>
+          
+    //     </Route>
 
-        <Route exact path='/Academic'>
-          <Academic />
-        </Route>
+        // <Route exact path='/Career'>
+        //   <Career />
+        // </Route>
 
-        <Route exact path='/Personal'>
-          <Personal />
-        </Route>
+        // <Route exact path='/Academic'>
+        //   <Academic />
+        // </Route>
 
-        <Route exact path='/Contact'>
-          <Contact />
-        </Route>
+        // <Route exact path='/Personal'>
+        //   <Personal />
+        // </Route>
 
-      </switch>
-    </>
+        // <Route exact path='/Contact'>
+        //   <Contact />
+        // </Route> 
+
+    //   {/* </Switch>
+    // </> */}
     
 
 )}
