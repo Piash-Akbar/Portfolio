@@ -12,16 +12,16 @@ import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Navbar />
         <Routes>
-          <Route exact path='/' element={<Home />}></Route>
+          <Route path='/' element={<Home />}></Route>
           <Route path='/Career' element={<Career />}> </Route>
           <Route path='/Academic' element={<Academic />}></Route>
           <Route path='/Personal' element={<Personal />}></Route>
           <Route path='/Contact' element={<Contact />}></Route>
         </Routes>
-    </HashRouter>
+    </BrowserRouter>
   
 
     // <>
