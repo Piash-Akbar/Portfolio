@@ -13,31 +13,31 @@ const Footer = () => {
             </div>
             <div className="contacts">
                 <h4>Contacts</h4>
-                <p>Email <br /> Personal: <a href="#">sknafisakbar@gmail.com</a><br />Official: <a href="#">sknafis19@student.sust.edu</a></p>
+                <p>Email <br /> Personal: <a href="https://github.com/Piash-Akbar" target='_blank' rel="noreferrer">sknafisakbar@gmail.com</a><br />Official: <a href="https://github.com/Piash-Akbar" target='_blank' rel='noreferrer'>sknafis19@student.sust.edu</a></p>
 
             </div>
         </div>
         <div className="social-media-links">
 
-            <a href="https://www.facebook.com/Just.SNAP.iT" target='_blank'>
+            <a href="https://www.facebook.com/Just.SNAP.iT" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon className='fa' icon={faFacebook} />
             </a>
-            <a href="https://www.linkedin.com/in/sk-nafis-akbar-038899155/" target='_blank'>
+            <a href="https://www.linkedin.com/in/sk-nafis-akbar-038899155/" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon className='fa' icon={faLinkedin} />    
             </a>
-            <a href="https://github.com/Piash-Akbar" target='_blank'>
+            <a href="https://github.com/Piash-Akbar" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon className='fa' icon={faGithub} /> 
             </a>
-            <a href="https://www.youtube.com/@AnirbanBhattacharjee" target='_blank'>
+            <a href="https://www.youtube.com/@AnirbanBhattacharjee" target='_blank'rel="noreferrer">
                 <FontAwesomeIcon className='fa' icon={faYoutube} />    
             </a>
-            <a href="https://www.instagram.com/pias_akbar/" target='_blank'>
+            <a href="https://www.instagram.com/pias_akbar/" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon className='fa' icon={faInstagram} />        
             </a>
             {/* <a href="#" target='_blank'>
                 <FontAwesomeIcon className='fa' icon={faResearchgate} />        
             </a> */}
-            <a href="https://wa.link/a5twkv" target='_blank'>
+            <a href="https://wa.link/a5twkv" target='_blank' rel="noreferrer">
                 <FontAwesomeIcon className='fa' icon={faWhatsapp} />        
             </a>
 
