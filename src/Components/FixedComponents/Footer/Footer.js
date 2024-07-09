@@ -34,9 +34,9 @@ const Footer = () => {
             <a href="https://www.instagram.com/pias_akbar/" target='_blank'>
                 <FontAwesomeIcon className='fa' icon={faInstagram} />        
             </a>
-            <a href="#" target='_blank'>
+            {/* <a href="#" target='_blank'>
                 <FontAwesomeIcon className='fa' icon={faResearchgate} />        
-            </a>
+            </a> */}
             <a href="https://wa.link/a5twkv" target='_blank'>
                 <FontAwesomeIcon className='fa' icon={faWhatsapp} />        
             </a>

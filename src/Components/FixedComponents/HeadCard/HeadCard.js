@@ -12,7 +12,7 @@ const HeadCard  = (props) => {
             <p>{props.works}</p>
             </div>
           </div>
-          <div className='CV'><a href="https://tangerine-hummingbird-1479b6.netlify.app/assets/resume-example.pdf" target='_blank'>cv</a></div>
+          <div className='CV'><a href="https://www.linkedin.com/in/sk-nafis-akbar-038899155/" target='_blank' rel="noreferrer">cv</a></div>
         </div>
       </div>
     </div>
