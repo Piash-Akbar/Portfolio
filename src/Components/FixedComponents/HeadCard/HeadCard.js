@@ -12,7 +12,7 @@ const HeadCard  = (props) => {
             <p>{props.works}</p>
             </div>
           </div>
-          <div className='CV'><a href="https://www.linkedin.com/in/sk-nafis-akbar-038899155/" target='_blank' rel="noreferrer">cv</a></div>
+          <div className='CV'><a href="https://drive.google.com/file/d/1msy2-ruz9oqnpSEJUCHSn789EUmJ2LbM/view?usp=sharing" target='_blank' rel="noreferrer">cv</a></div>
         </div>
       </div>
     </div>
