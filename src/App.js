@@ -1,6 +1,6 @@
 // import './App.css';
 import React from 'react';
-import {BrowserRouter,Routes, Route} from 'react-router-dom';
+import {HashRouter,Routes, Route} from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Career from './Components/Career/Career';
 // import Academic from './Components/Academic/Academic';
@@ -13,9 +13,9 @@ import Contact from './Components/Contact/Contact';
 function App() {
   return (
     <div className="">
-      iuhqiuwgcuydsg
+      {/* iuhqiuwgcuydsg */}
         <Navbar />
-      <BrowserRouter>
+      <HashRouter>
           <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/Career' element={<Career />}> </Route>
@@ -23,7 +23,7 @@ function App() {
             <Route path='/Personal' element={<Personal />}></Route>
             <Route path='/Contact' element={<Contact />}></Route>
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   
 
