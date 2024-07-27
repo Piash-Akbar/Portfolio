@@ -15,7 +15,7 @@ const Contact = () => {
             <h3 className="arbeit-h3">Contact Informations</h3>
             <ul>
               <li><b>Email</b></li>
-              <p>email@email.com</p>
+              <p>sknafisakbar@gmail.com</p>
 
               <li><b>Contact Number</b></li>
               <p>+8801515688304</p>

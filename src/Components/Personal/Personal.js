@@ -18,11 +18,11 @@ const Personal = () => {
               <p>I Have been Learning Indian Classical Music (on Violin) since 2017</p>
 
               <li><b>Reading</b></li>
-              <p>I have an interest in psychology, Mythology and bla bla</p>
+              <p>I have an interest in Psychology, Mythology, Art and Poetry </p>
 
 
               <li><b>Walking</b></li>
-              <p>I Love to Walk at Rasta-Ghat,Jhor Jongol ittadi ittadi</p>
+              <p>I Love to Walk whenever I get some free time, as it clarifies my thoughts.</p>
 
             </ul>
           </div>

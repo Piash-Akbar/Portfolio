@@ -14,13 +14,14 @@ const Career = () => {
         <div className="arbeit">
           <h3 className="arbeit-h3">Professional Experiences</h3>
           <ul>
+
             <li><b>Lecturer in Physics</b> at Universal College, Sylhet</li>
             <p><b>(October 2023 - January 2024)</b></p>
             <li><b>Machiene Learning Educator</b> at Eradupy </li>
             <p><b>(October 2023 - January 2024)</b></p>
             <li><b>Music Teacher(Violin)</b> at Siren Music School </li>
             <p><b>(Noivember 2019 - January 2020)</b></p>
-            <p>responsibility: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, autem!</p>
+            <p></p>
           </ul>
         </div>
       </div>
@@ -63,20 +64,20 @@ const Career = () => {
           <ul>
 
             <li><b>The 2018 University Physics Competition</b></li>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p>I participated the UPC 2018 Competition and achieved Paper accomplished rank</p>
 
             <li><b>Astronomy: Exploring Time and Space</b></li>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p>This course was my first course on Astronomy and I started to love the subject more intensely.</p>
 
             <li><b>Data-driven Astronomy</b></li>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p>This was the course provided by Coursera and in this course, I completed many exercises on astronomical data.</p>
 
             <li><b>Programming for Everybody (Getting Started with
               Python)</b></li>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p>This was the course with which I got started with programming with Python.</p>
 
             <li> Certificate of participation at <b>International Observe the Moon Night</b> arranged by Nasa</li>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p>We registered for the competition organized by NASA and submitted some images of the moon captured with telescope on a full moon night.</p>
 
 
 
