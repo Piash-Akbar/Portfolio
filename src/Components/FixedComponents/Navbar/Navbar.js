@@ -4,7 +4,7 @@ import Propic from '../../../Images/Pro.png'
 
 
 const Navbar = () => {
-  // const[currentPage,setCurrentPage] = useState('Home')
+  
   return (
     <div className='nav' style={{position:'sticky'}}>
         <div className="profile-pic">
