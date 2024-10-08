@@ -7,7 +7,7 @@ const Career = () => {
   return (
     <div>
         <HeadCard
-            PageTitle = 'Experties'
+            PageTitle = 'Expertise'
         />
 
       <div className='arbeit-out'>
