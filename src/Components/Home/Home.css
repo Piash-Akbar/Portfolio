@@ -57,6 +57,11 @@ h3{
     .About{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0px;
+    }
+    .about-2-body{
         padding: 0;
         margin: 0px;
     }
