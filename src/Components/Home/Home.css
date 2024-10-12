@@ -6,6 +6,7 @@ h3{
     margin-left: 20px;
 }
 .title-2{
+    padding-top: 1rem;
     display: block;
     text-align: center;
     padding-bottom: 20px;
@@ -30,6 +31,7 @@ h3{
     background-size:auto;
     background-position: center; */
 }
+
 
 .About{
     display: flex;

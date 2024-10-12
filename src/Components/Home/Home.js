@@ -24,14 +24,14 @@ const Head = () => {
             <p> I consider my university years to be the best part of my life, as they were instrumental in shaping me into who I am today.</p>
           </div>
         </div>
-      </div>
-
+      
       <div className="about-2">
        <div className='about-2-body'>
             <h3 className="title-2">Essence of my vision and works</h3> 
             <p>My career goal is to become a dedicated inventor and researcher, fueled by my passion for Machine Learning, Data Science, Digital Image Processing, Scientific Data Processing, and Website Development. I am eager to leverage my knowledge to develop innovative ideas and solutions. Throughout my career, I have worked on diverse projects such as measuring laser beam spot sizes and other features, conducting simulations with computer vision, and detecting skin cancer using machine learning. Additionally, I have developed this very portfolio website.</p>
             <p>By collaborating with multidisciplinary teams and dynamic individuals, I aim to conduct impactful research and contribute significantly to my field. My vision is to make a positive impact on people's lives through my work, driving advancements and fostering innovation. I am committed to continually expanding my expertise and staying at the forefront of technological advancements to achieve these goals.</p>
           </div>
+      </div>
       </div>
 
 

@@ -12,8 +12,9 @@
 }
 .headerr{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* position:relative; */
+    z-index: 1000;
     height: 300px;
     margin-top: 0px;
     background-color: #17236a;
@@ -39,8 +40,8 @@ h1,p{
     margin: 50px;
     color: white;
     /* background-color: aqua; */
-    height: 150px;
-    width: 700px;
+    height: 9.375rem;
+    width: 50%;
     margin-bottom: 10px;
 }
 
