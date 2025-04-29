@@ -11,7 +11,7 @@ const Head = () => {
       <HeadCard
        PageTitle = 'Sk Nafis Akbar'
        works ='Student | Learner | Music Lover'
-        cv =  {<div className='CV'><a href="https://drive.google.com/file/d/1t_1_SMyy5Sxllzp3k_7_xzNXBwrcWb1t/view?usp=sharing" target='_blank' rel="noreferrer">cv</a></div>}
+        cv =  {<div className='CV'><a href="https://drive.google.com/file/d/1t_1_SMyy5Sxllzp3k_7_xzNXBwrcWb1t/view" target='_blank' rel="noreferrer">cv</a></div>}
       />
 
       <div className="About-out">
