@@ -4,6 +4,7 @@ import Propic from '../../../Images/Pro.png'
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBars,faTimes} from '@fortawesome/free-solid-svg-icons';
 import { useRef } from 'react';
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -30,13 +31,16 @@ const Navbar = () => {
         {/* Nav Right  */}
         <nav className='nav-right' ref={navRef}>
           
-        <ol className='lists'>
+        <ul className='lists'>
+          <li>
+            <Link to='/Career'>Car</Link>
+          </li>
           <li className='list-item'><a href="/" className="home"  >Home</a></li>
           <li className='list-item'><a href="/Career" className="about">Expertise</a></li>
           <li className='list-item'><a href="/Academic" className="about">Academic</a></li>
           <li className='list-item'><a href="/Personal" className="about">Personal</a></li>
           <li className='list-item'><a href="/Contact" className="about">Contact</a></li>
-        </ol>
+        </ul>
 
         <button className='nav-btn nav-close-btn' onClick={showNavBar}>
           <FontAwesomeIcon className='fa' icon={faTimes} />
